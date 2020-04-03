@@ -10,7 +10,6 @@ public class phep_tru {
 		aNumber = scanner.nextInt();
 		System.out.println("Nhập vào số thứ hai: ");
 		bNumber = scanner.nextInt();
-		System.out.println("Nhập phép toán (-): ");
 		return aNumber - bNumber;
 	}
 	
@@ -19,12 +18,7 @@ public class phep_tru {
 		
         phep_tru p = new phep_tru();
         System.out.println(p.pheptru());
-     
-       
-
-
-            
-
+		
 	}
 }
 
