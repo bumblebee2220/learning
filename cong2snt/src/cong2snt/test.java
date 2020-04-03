@@ -1,19 +1,23 @@
-package cong2snt;
+package test3;
 import java.util.*;
-public class test {
+public class phep_cong {
+
+	private int so1, so2;
+	double cong() {
+		
+		System.out.println("Enter number 1: ");
+		Scanner kb = new Scanner(System.in);
+		so1 = kb.nextInt();
+		System.out.println("Enter number 2: ");
+		so2 = kb.nextInt();
+		return so1 + so2;
+	}
 
 	public static void main(String[] args) {
-		 int a, b, kq;	        
-	        Scanner sc = new Scanner(System.in);
-	        System.out.print("Hello "); 
-	        System.out.print("Nhap a: "); 
-	        a = sc.nextInt(); 
-	        System.out.print("Nhap b: ");
-	        b = sc.nextInt();
-	      
-	        kq=a+b;
-	        
-	        System.out.println("Ket Qua:" + kq);
+		// TODO Auto-generated method stub
+		        
+		phep_cong c = new phep_cong();
+		System.out.println(c.cong());
 	}
 
 }
